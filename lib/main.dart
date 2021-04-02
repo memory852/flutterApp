@@ -11,8 +11,7 @@ void main() {
         backgroundColor: Colors.blueGrey,
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://asselum.com/wp-content/uploads/The-Blue-Light-Hazard-according-to-the-CIE-1080x675.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
